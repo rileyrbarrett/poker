@@ -1,5 +1,5 @@
 #[derive(PartialEq, Debug)]
-enum Rank {
+pub enum Rank {
     _2,
     _3,
     _4,
@@ -16,7 +16,7 @@ enum Rank {
 }
 
 #[derive(PartialEq, Debug)]
-enum Suit {
+pub enum Suit {
     S,
     H,
     C,
